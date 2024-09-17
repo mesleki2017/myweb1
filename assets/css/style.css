@@ -403,7 +403,7 @@ body {
   transition-duration: 0.5s;
 }
 
-.navbar-item { border-block-end: 1px solid var(--oxford-blue_a15); }
+.navbar-item { border-block-end: 1px solid var(--ff-quicksand); }
 
 .navbar-link {
   color: var(--black);
@@ -788,7 +788,7 @@ body {
   #FOOTER
 \*-----------------------------------*/
 
-.footer { background-color: var(--smoky-black); }
+.footer { background-color: var(--ff-quicksand); }
 
 .footer-top {
   display: grid;
@@ -1079,7 +1079,7 @@ body {
   }
 
   .hero-card :is(.card-subtitle, .card-title) {
-    color: var(--smoky-black);
+    color: var(--yellow-green);
     font-weight: var(--fw-600);
   }
 
@@ -1374,7 +1374,7 @@ body {
     transition: var(--transition-1);
   }
 
-  .navbar-link:is(:hover, :focus-visible) { color: var(--smoky-black); }
+  .navbar-link:is(:hover, :focus-visible) { color: var(--ff-quicksand); }
 
   .header-action {
     display: flex;
@@ -1388,7 +1388,7 @@ body {
  
   }
 
-  .header .contact-number:is(:hover, :focus-visible) { color: var(--oxford-blue_a15); }
+  .header .contact-number:is(:hover, :focus-visible) { color: var(--ff-quicksand); }
 
   .header .contact-number ion-icon {
     font-size: 7.6rem;

@@ -357,7 +357,7 @@ body {
   left: 0;
   width: 100%;
   background-color: var(--yellow-green);
-  padding-block: 25px;
+  padding-block: 15px;
   z-index: 4;
 }
 
@@ -1384,27 +1384,20 @@ body {
 
   .header .contact-number {
     display: flex;
-    align-items: center;
-    gap: 5px;
-    color: var(--smoky-black);
-    font-weight: var(--fw-600);
-    transition: var(--transition-1);
+    align-items: left;
+ 
   }
 
-  .header .contact-number:is(:hover, :focus-visible) { color: var(--white); }
+  .header .contact-number:is(:hover, :focus-visible) { color: var(--oxford-blue_a15); }
 
   .header .contact-number ion-icon {
-    font-size: 2.6rem;
-    --ionicon-stroke-width: 20px;
+    font-size: 7.6rem;
+    right: 60%;
   }
 
-  .header .contact-number .span { font-size: 1.7rem; }
+  .header .contact-number .span { font-size: 4.7rem; }
 
-  .header .btn-primary:is(:hover, :focus-visible) {
-    background-color: var(--white);
-    color: var(--rich-black-fogra-29);
-  }
-
+ 
 
 
   /**

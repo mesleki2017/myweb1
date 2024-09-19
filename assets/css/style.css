@@ -176,7 +176,8 @@ body {
 .h3,
 .h4,
 .h5,
-.h6 { font-family: var(--ff-quicksand); }
+.h6 { font-family: var(--ff-quicksand); 
+}
 
 .h2,
 .h3,
@@ -1494,4 +1495,37 @@ body {
 
   .hero-banner { right: 35%; }
 
+}
+
+.glow2 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow2 {
+  from {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  
+  }
+  to {
+    text-shadow:
+    /* White glow */
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
 }

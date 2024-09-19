@@ -887,9 +887,10 @@ body {
 .footer-bottom-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin-block-end: 10px;
   gap: 5px 15px;
+  justify-items: center;
+  text-align: center; 
 }
 
 .copyright { text-align: center; }
@@ -1051,9 +1052,13 @@ body {
    */
 
   .container {
+
     max-width: 850px;
     width: 100%;
     margin-inline: auto;
+    border-style: dotted;border-width: 5px;
+    align-items: center;
+    text-align: center;
   }
 
 
@@ -1103,6 +1108,7 @@ body {
   .about .container {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    
   }
 
   .about-banner .img-2 { margin-inline-start: 0; }
@@ -1141,7 +1147,7 @@ body {
 
   .cta .container { grid-template-columns: 1fr 0.5fr; }
 
-  .cta-card .h1 { --fs-2: 3.6rem; }
+    .cta-card .h1 { --fs-2: 3.6rem; }
 
   .cta-card {
     display: flex;
@@ -1168,7 +1174,7 @@ body {
   }
 
   .blog-list,
-  .contact-list { grid-template-columns: repeat(3, 1fr); }
+  .contact-list { grid-template-columns: repeat(4, 1fr); }
 
 
 
@@ -1279,6 +1285,7 @@ body {
   .service .section-title {
     max-width: 23ch;
     margin-inline: auto;
+    
   }
 
   .service .wrapper { gap: 50px; }
@@ -1290,8 +1297,10 @@ body {
    */
 
   .contact-list {
-    max-width: 70%;
+    max-width: 100%;
     margin-inline-start: auto;
+    border-style: dotted;border-width: 5px;border-color: red;
+    
   }
 
   .contact { padding-block-end: 40px; }
@@ -1345,7 +1354,7 @@ body {
    * REUSED STYLE
    */
 
-  .container { max-width: 1200px; }
+  .container { max-width: 1200px;  align-items: center;}
 
 
 
@@ -1439,7 +1448,7 @@ body {
 
   .service-list:first-child .service-item {
     flex-direction: row;
-    text-align: right;
+    text-align: left;
   }
 
   .service-banner {

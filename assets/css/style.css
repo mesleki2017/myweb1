@@ -1056,7 +1056,6 @@ body {
     max-width: 850px;
     width: 100%;
     margin-inline: auto;
-    border-style: dotted;border-width: 5px;
     align-items: center;
     text-align: center;
   }
@@ -1299,7 +1298,6 @@ body {
   .contact-list {
     max-width: 100%;
     margin-inline-start: auto;
-    border-style: dotted;border-width: 5px;border-color: red;
     
   }
 
